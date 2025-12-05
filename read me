@@ -23,7 +23,16 @@ TGM Pro is a Windows desktop app that helps you grow and manage Telegram communi
 2. Open the extracted **`TGM Pro`** folder.  
 3. Double-click **`TGM Pro.exe`**.
 
-On first run you may see a Windows SmartScreen warning (see Troubleshooting below).
+On first run you may see a Windows SmartScreen warning 
+> **Windows protected your PC**  
+> Microsoft Defender SmartScreen prevented an unrecognized app from starting.
+
+This happens because TGM Pro is **new and not code-signed**, so Windows has no reputation for it yet.
+
+To run it:
+
+1. Click **More info**.  
+2. Click **Run anyway**.
 
 ---
 
@@ -38,11 +47,10 @@ TGM Pro is a **paid** application.
 
 ### How to get a license key
 
-- Contact: `<your Telegram @handle or email>`  
-- Payment: `<your payment link or instructions>`  
+- Contact: `@davetold on telegram>`  
+- Payment:paypal `<benaoudabrahim3@gmail.com>`  
 - After payment, you will receive a license key to enter on first run.
 
-Replace the placeholders above with your real contact/payment info.
 
 ---
 
