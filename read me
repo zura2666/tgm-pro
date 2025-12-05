@@ -1,1 +1,109 @@
-read me
+# TGM Pro – Telegram Growth Manager
+
+TGM Pro is a Windows desktop app that helps you grow and manage Telegram communities.
+
+- Scrape members from target groups/channels  
+- Add members using multiple accounts  
+- Schedule recurring announcements with a bot  
+- Export scraped members and back up all data  
+
+> ⚠ **Requires a license key**  
+> You can download and install TGM Pro, but you need a valid license key to actually use it.
+
+---
+
+## 1. Download
+
+1. Go to the **Releases** page of this repository.  
+2. Download the latest **`TGM Pro.zip`** asset.
+
+## 2. Install & Run
+
+1. Right-click `TGM Pro.zip` → **Extract All…**.  
+2. Open the extracted **`TGM Pro`** folder.  
+3. Double-click **`TGM Pro.exe`**.
+
+On first run you may see a Windows SmartScreen warning (see Troubleshooting below).
+
+---
+
+## 3. License & Activation
+
+TGM Pro is a **paid** application.
+
+- A valid **license key** is required to unlock the app.  
+- License keys are issued manually by the seller after payment.  
+- On first launch, TGM Pro will ask for your license key.  
+- Once activated, the license is stored locally on your machine.
+
+### How to get a license key
+
+- Contact: `<your Telegram @handle or email>`  
+- Payment: `<your payment link or instructions>`  
+- After payment, you will receive a license key to enter on first run.
+
+Replace the placeholders above with your real contact/payment info.
+
+---
+
+## 4. Basic Usage
+
+### 4.1 Add Telegram accounts
+
+1. Open the **Accounts** tab.  
+2. Click **Add Account** and enter:  
+   - API ID and API Hash (from https://my.telegram.org)  
+   - Phone number  
+   - Optional **Account Name** (friendly label)  
+3. Complete the Telegram login (code + 2FA if any).  
+4. When status is **Logged In**, the account is ready.
+
+### 4.2 Configure groups (Settings tab)
+
+1. Set **Source Group / Channel** for scraping members.  
+2. Set **Destination Group** for adding members and announcements.  
+3. Adjust filters if needed (online only, username only, min/max age).
+
+### 4.3 Scraper
+
+1. Go to the **Scraper** tab.  
+2. Ensure at least one account is **Logged In**.  
+3. Click **Start** to scrape members from the source group.  
+4. When done, members are stored inside TGM Pro for the **Adder** tab.  
+5. Use **Export Scraped Members** to save per-group CSV/TXT files.
+
+### 4.4 Adder
+
+1. Go to the **Adder** tab.  
+2. Choose between scraped members or a manual/file list.  
+3. Configure which accounts to use and limits.  
+4. Click **Start** to begin adding members.
+
+### 4.5 Announcer
+
+1. Configure bot token, destination group, text, and interval in **Settings**.  
+2. Open the **Announcer** tab.  
+3. (Optional) enable **"Keep only the last message"** so old announcements are deleted.  
+4. Click **Start Announcer**.
+
+### 4.6 Export & Backup
+
+- **Export Scraped Members** (Scraper tab) → CSV/TXT per group.  
+- **File → Export Data** (menu) → ZIP backup of DB, config, and sessions.
+
+---
+
+## 5. Troubleshooting
+
+See `TROUBLESHOOTING.md` in this folder for:
+
+- Browser blocking the download  
+- Windows SmartScreen warning  
+- Antivirus false positives  
+
+---
+
+## 6. Disclaimer
+
+TGM Pro is not affiliated with, sponsored by, or endorsed by Telegram.  
+Use it responsibly and follow Telegram's Terms of Service. Misuse may lead to account restrictions or bans.
