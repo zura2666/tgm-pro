@@ -1,3 +1,4 @@
+Download the app from the release file
 TGM Pro
 
 A multi-account Telegram management toolkit designed for automated group scraping, member statistics, campaign scheduling, and bulk operations.
